@@ -3,8 +3,7 @@ import pandas as pd
 import pickle
 
 # Load trained model from the specified path
-model = pickle.load(open("/content/loan_model.pkl", "rb"))
-
+model = pickle.load(open("loan_model.pkl", "rb"))
 st.title("🏦 Loan Approval Prediction")
 
 st.write("Enter the applicant details below:")
